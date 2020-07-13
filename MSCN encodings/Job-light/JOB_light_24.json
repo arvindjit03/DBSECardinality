@@ -1,0 +1,21 @@
+{
+    "Query Number": "job_light_24",
+    "Query": "SELECT COUNT(*) FROM cast_info ci,title t,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=4;",
+    "Cardinality": 4450853,
+    "AND Predicate Norm": [
+        [
+            26,
+            2,
+            0.3
+        ]
+    ],
+    "Tables": [
+        2,
+        16,
+        12
+    ],
+    "Joins": [
+        "98-21",
+        "98-61"
+    ]
+}

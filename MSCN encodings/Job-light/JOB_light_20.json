@@ -1,0 +1,24 @@
+{
+    "Query Number": "job_light_20",
+    "Query": "SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND t.production_year>1980 AND t.production_year<1995;",
+    "Cardinality": 4533382,
+    "AND Predicate Norm": [
+        [
+            104,
+            3,
+            0.7194244604316546
+        ],
+        [
+            104,
+            1,
+            0.8273381294964028
+        ]
+    ],
+    "Tables": [
+        2,
+        16
+    ],
+    "Joins": [
+        "98-21"
+    ]
+}

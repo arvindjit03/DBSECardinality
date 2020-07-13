@@ -1,0 +1,28 @@
+{
+    "Query Number": "job_light_43",
+    "Query": "SELECT COUNT(*) FROM title t,movie_info mi,movie_companies mc,movie_keyword mk WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND t.id=mc.movie_id AND mi.info_type_id=16 AND t.production_year>1990;",
+    "Cardinality": 625302823,
+    "AND Predicate Norm": [
+        [
+            65,
+            2,
+            0.13761467889908258
+        ],
+        [
+            104,
+            3,
+            0.7913669064748201
+        ]
+    ],
+    "Tables": [
+        16,
+        17,
+        12,
+        19
+    ],
+    "Joins": [
+        "98-66",
+        "98-75",
+        "98-61"
+    ]
+}
