@@ -1,0 +1,31 @@
+{
+    "Query Number": "Synthetic_62",
+    "Query": "SELECT COUNT(*) FROM title t,movie_companies mc,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND t.kind_id<7 AND mc.company_id=3232 AND mc.company_type_id=1;",
+    "Cardinality": 12,
+    "AND Predicate Norm": [
+        [
+            101,
+            1,
+            1.0
+        ],
+        [
+            58,
+            2,
+            0.01374917019864168
+        ],
+        [
+            59,
+            2,
+            0.0
+        ]
+    ],
+    "Tables": [
+        16,
+        12,
+        18
+    ],
+    "Joins": [
+        "98-61",
+        "98-71"
+    ]
+}

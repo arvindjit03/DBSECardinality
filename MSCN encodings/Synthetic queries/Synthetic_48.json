@@ -1,0 +1,36 @@
+{
+    "Query Number": "Synthetic_48",
+    "Query": "SELECT COUNT(*) FROM title t,movie_companies mc,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND t.kind_id>1 AND t.production_year=1995 AND mc.company_id>4436 AND mk.keyword_id>12216;",
+    "Cardinality": 15207,
+    "AND Predicate Norm": [
+        [
+            101,
+            3,
+            0.0
+        ],
+        [
+            104,
+            2,
+            0.8273381294964028
+        ],
+        [
+            58,
+            3,
+            0.01887266166232617
+        ],
+        [
+            74,
+            3,
+            0.09104189492356654
+        ]
+    ],
+    "Tables": [
+        16,
+        12,
+        19
+    ],
+    "Joins": [
+        "98-61",
+        "98-75"
+    ]
+}

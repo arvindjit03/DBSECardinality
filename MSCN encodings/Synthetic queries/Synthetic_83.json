@@ -1,0 +1,24 @@
+{
+    "Query Number": "Synthetic_83",
+    "Query": "SELECT COUNT(*) FROM title t,cast_info ci WHERE t.id=ci.movie_id AND t.kind_id>2 AND t.production_year<1965;",
+    "Cardinality": 843688,
+    "AND Predicate Norm": [
+        [
+            101,
+            3,
+            0.16666666666666666
+        ],
+        [
+            104,
+            1,
+            0.6115107913669064
+        ]
+    ],
+    "Tables": [
+        16,
+        2
+    ],
+    "Joins": [
+        "98-21"
+    ]
+}

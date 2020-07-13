@@ -1,0 +1,31 @@
+{
+    "Query Number": "Synthetic_56",
+    "Query": "SELECT COUNT(*) FROM title t,cast_info ci,movie_keyword mk WHERE t.id=ci.movie_id AND t.id=mk.movie_id AND ci.person_id>2678609 AND ci.role_id=2 AND mk.keyword_id<1776;",
+    "Cardinality": 222131,
+    "AND Predicate Norm": [
+        [
+            24,
+            3,
+            0.6594429980858829
+        ],
+        [
+            26,
+            2,
+            0.1
+        ],
+        [
+            74,
+            1,
+            0.013229583584881754
+        ]
+    ],
+    "Tables": [
+        16,
+        2,
+        19
+    ],
+    "Joins": [
+        "98-21",
+        "98-75"
+    ]
+}

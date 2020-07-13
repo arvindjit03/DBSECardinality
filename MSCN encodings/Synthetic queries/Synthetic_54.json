@@ -1,0 +1,19 @@
+{
+    "Query Number": "Synthetic_54",
+    "Query": "SELECT COUNT(*) FROM title t,cast_info ci WHERE t.id=ci.movie_id AND ci.person_id=3587349;",
+    "Cardinality": 33,
+    "AND Predicate Norm": [
+        [
+            24,
+            2,
+            0.883164509438259
+        ]
+    ],
+    "Tables": [
+        16,
+        2
+    ],
+    "Joins": [
+        "98-21"
+    ]
+}

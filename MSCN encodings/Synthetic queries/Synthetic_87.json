@@ -1,0 +1,16 @@
+{
+    "Query Number": "Synthetic_87",
+    "Query": "SELECT COUNT(*) FROM movie_keyword mk WHERE mk.keyword_id<39210;",
+    "Cardinality": 4072192,
+    "AND Predicate Norm": [
+        [
+            74,
+            1,
+            0.29223591142514294
+        ]
+    ],
+    "Tables": [
+        19
+    ],
+    "Joins": []
+}

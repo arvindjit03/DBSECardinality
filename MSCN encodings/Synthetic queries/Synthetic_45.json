@@ -1,0 +1,21 @@
+{
+    "Query Number": "Synthetic_45",
+    "Query": "SELECT COUNT(*) FROM movie_companies mc WHERE mc.company_id>868 AND mc.company_type_id=2;",
+    "Cardinality": 1152615,
+    "AND Predicate Norm": [
+        [
+            58,
+            3,
+            0.0036894245008425677
+        ],
+        [
+            59,
+            2,
+            1.0
+        ]
+    ],
+    "Tables": [
+        12
+    ],
+    "Joins": []
+}

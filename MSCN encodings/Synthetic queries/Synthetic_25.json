@@ -1,0 +1,26 @@
+{
+    "Query Number": "Synthetic_25",
+    "Query": "SELECT COUNT(*) FROM title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.production_year>1978 AND mi.info_type_id=3;",
+    "Cardinality": 1215398,
+    "AND Predicate Norm": [
+        [
+            104,
+            3,
+            0.7050359712230215
+        ],
+        [
+            65,
+            2,
+            0.01834862385321101
+        ]
+    ],
+    "Tables": [
+        16,
+        17,
+        18
+    ],
+    "Joins": [
+        "98-66",
+        "98-71"
+    ]
+}

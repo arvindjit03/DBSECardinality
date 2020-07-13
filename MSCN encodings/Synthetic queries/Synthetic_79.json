@@ -1,0 +1,31 @@
+{
+    "Query Number": "Synthetic_79",
+    "Query": "SELECT COUNT(*) FROM title t,movie_companies mc,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND t.kind_id=1 AND t.production_year<1965 AND mc.company_id>1237;",
+    "Cardinality": 4198516,
+    "AND Predicate Norm": [
+        [
+            101,
+            2,
+            0.0
+        ],
+        [
+            104,
+            1,
+            0.6115107913669064
+        ],
+        [
+            58,
+            3,
+            0.005259663994280754
+        ]
+    ],
+    "Tables": [
+        16,
+        12,
+        19
+    ],
+    "Joins": [
+        "98-61",
+        "98-75"
+    ]
+}

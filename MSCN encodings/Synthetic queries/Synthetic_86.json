@@ -1,0 +1,21 @@
+{
+    "Query Number": "Synthetic_86",
+    "Query": "SELECT COUNT(*) FROM cast_info ci WHERE ci.person_id=892909 AND ci.role_id<3;",
+    "Cardinality": 1,
+    "AND Predicate Norm": [
+        [
+            24,
+            2,
+            0.2198238519913588
+        ],
+        [
+            26,
+            1,
+            0.2
+        ]
+    ],
+    "Tables": [
+        2
+    ],
+    "Joins": []
+}
